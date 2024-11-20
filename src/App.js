@@ -26,7 +26,7 @@ import Dark from "./Components/DarkMode/Dark.js";
 
 function App() {
 
-  const [LoggedIn, setLoggedIn] = useState(false);
+  const [LoggedIn, setLoggedIn] = useState(true);
   const [isloading, setisLoading] = useState(true);
 
   useEffect(() => {
