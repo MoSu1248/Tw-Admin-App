@@ -1,0 +1,72 @@
+.section-ref-top-wrapper{
+        height: 2.8rem;
+        background-color: var(--primary-backColor);
+        transition: 0.2s;
+        width: 30%;
+        height: 88%;
+        margin-left: 2rem;
+        margin-top: 2rem;
+        box-shadow: var(--primary-contShadow);  
+        border-radius: 10px;
+}
+
+.section-referral-table-container{
+    padding: 1rem;
+}
+
+.referrals-body-container{
+    display: flex;
+width: 100%;
+}
+
+.section-status-row{
+    display: flex;
+}
+
+.section-status-data-styling{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0;
+    border-right:1px solid var(--primary-appointmentDataBorder);
+    }
+
+
+    .section-header-spacing{
+        margin-top: 2rem;
+
+    }
+
+    .status-table-styling{
+        height: fit-content;
+        border-radius: 8px;
+        border: 1px solid var(--primary-appointmentDataBorder);
+padding: 2rem;
+    }
+
+   .section-status-data-styling p{
+    padding: 1rem;
+    font-size: 0.9rem;
+    margin: 0;
+}
+
+.section-referrals-table-header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--primary-appointmentDataBorder);
+}
+
+.section-status-img{
+    color: var(--online-green);
+font-size: 1.5rem;
+margin-right: 1rem;
+
+}
+
+.section-status-img-cross{
+    color: var(--primary-colorrTwRed);
+font-size: 1.5rem;
+margin-right: 1rem;
+}

@@ -1,0 +1,35 @@
+.options{
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+    background: var(--primary-backColor);
+    box-shadow: var(--primary-contShadow);
+    color: inherit;
+    min-width: unset;
+    
+    z-index: 1;
+    border-radius: 10px;
+    border-width: 1px;
+    width: 15%;
+    border: transparent;
+    -webkit-backdrop-filter: blur(63px);
+    backdrop-filter: blur(63px);
+    padding: 15px;
+    position: absolute;
+    border: 1px solid var(--primary-colorTwGrey2-lighter) ;
+}
+
+.options-container{
+    width: 0px;
+    transition: 0.2s ease-in;
+
+}
+
+.nurse-recent-patients-info:hover .options-container{
+width: 80px;
+transition: 0.2s ease-in;
+}
+
+.flex-container-recent-patients{
+    min-height: 4rem;
+    display: flex;
+}

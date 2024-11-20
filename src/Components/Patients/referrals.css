@@ -1,0 +1,136 @@
+.Referrals-top-wrapper{
+    padding: 2rem;
+    background-color: var(--primary-backColor);
+    transition: 0.2s;
+    padding: 0 1rem;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    zoom: 90%;
+    box-shadow: 0 .5rem 1rem var(--loginshadow);
+    border-radius: 10px;
+
+}
+
+.status-data-styling p{
+    display: inline-block;
+    width: 95%;
+    margin: 0;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.status-img{
+    width: 5%;
+    color: var(--online-green);
+font-size: 1.5rem;
+}
+
+.status-img-cross{
+    width: 5%;
+    color: var(--primary-colorrTwRed);
+font-size: 1.5rem;
+}
+
+.status-table-styling{
+    width: 100%;
+    height: fit-content;
+    justify-content: space-between;
+}
+
+.status-row{
+  display: flex;
+}
+
+.status-data-styling{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem;
+    border: 1px solid var(--primary-appointmentDataBorder);
+    border-top: none;
+    justify-content: center;
+    align-items: center;
+    }
+
+.status-table-body-styling{
+    width: 100%;
+}
+
+.referrals-table-header-container{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid var(--primary-appointmentDataBorder);
+    padding: 1rem;
+}
+
+.status-container{
+    margin-top: auto;
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+    color: var(--primary-info-data-color);
+}
+
+.referrals-table-header-container .header-img{
+    height: 1.5rem;
+    width:  1.5rem;
+}
+
+.referrals-table-header-container h5{
+    margin: auto;
+    margin-left: 0;
+    font-weight: 600;
+    color: var(--primary-info-data-color);
+}
+
+.referrals-header-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-top: 1.5rem;
+}
+
+
+
+  .referrals-comments{
+    resize: none;
+    height: fit-content;
+  }
+
+  .referrals-data-field{
+    width: 60%;
+    padding: 0.45rem;
+    border: none;
+    background-image: none;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border-radius: 0.3rem;
+    border: 2px solid var(--primary-appointmentDataBorder);
+    font-family: "DM Sans", sans-serif;
+    color: var(--primary-Tab-toplink);
+    margin-top: 0.5rem;
+    font-weight: 600;
+    resize: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  .referrals-data-field::placeholder {
+    font-family: "DM Sans", sans-serif;
+  
+    color: var(--primary-Tab-toplink);
+  }
+
+  .referrals-bottom-container{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2rem;
+    font-size: 1.2rem;
+  }

@@ -1,0 +1,150 @@
+.nurse-messages-container{
+    padding: 10px;
+    padding-top: 20px;
+    word-wrap: break-word;
+    background: var(--primary-backColor);
+    -webkit-background-clip: border-box;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    width: 28%;
+    box-shadow: var(--primary-contShadow);
+}
+
+.nurse-recent-patients-header{
+    width: 100%;
+    display: flex;
+        justify-content: space-evenly;
+        border-bottom: 1px solid var(--primary-colorTwGrey2);
+
+}
+
+.nurse-recent-patients-header li{
+    list-style: none;
+}
+
+.nurse-recent-patients-info{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+margin-bottom: 1rem;
+}
+
+.nurse-recent-patients-info:hover{
+background-color: var(--primary-colorTwGrey2)21;
+}
+
+.recent-patients-icon{
+    width: 16px;
+    height: 40px;
+    color: var(--primary-colorrTwRed);
+}
+
+.first-tset{
+    display: flex;
+    flex-direction: column;
+}
+
+.nurese-recent-patients-table{
+    width: 100%;
+}
+
+.css-1o49cnu{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 85%;
+}
+
+
+
+.header_2{
+    width: 40%;
+
+}
+
+.header_styling{
+    font-weight: 600;
+    font-size: 0.95rem;
+    text-transform: uppercase;
+    text-align: start;
+    letter-spacing: 0.1rem;
+    line-height: 1rem;
+    /* color: #4A5568; */
+    color: var(--primary-text);
+    height: fit-content;
+    margin-top: auto;
+width:30%;
+}
+
+.header_3{
+    margin-right: 4rem;
+
+}
+
+.header-styling-4{
+    margin-right: 0rem;
+}
+
+.data_1{
+    width: 34%;
+   
+}
+.data_2{
+    width: 40%;
+
+}
+.data_3{
+    width: 20%;
+
+}
+
+.data-styling{
+    
+    font-size: 0.9rem;
+    height: fit-content;
+    color: var(--primary-text);
+    font-weight: 500;
+    text-overflow:ellipsis;
+    margin-top: 0.5rem;
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+    height: fit-content;
+    margin-left: 1rem;
+    width: 30%;
+}
+
+.header_5{
+    margin-left: 1rem;
+    width: 30%;
+
+
+}
+
+.id-styling{
+    font-size: 0.9rem;
+    height: fit-content;
+    color: var(--primary-colorTwGrey2);
+    font-weight: 400;
+    text-overflow:ellipsis;
+
+    /* Required for text-overflow to do anything */
+    white-space: nowrap;
+    overflow: hidden;
+    height: fit-content; 
+    margin-bottom: 0.5rem;
+}
+
+.name-data-styling{
+    width: 85%;
+    margin: 0;
+    margin-top: 1rem;
+}
+
+.heading-icon-container-recent{
+    display: flex;
+    padding: 0.5rem;
+}
+
+.border-styling{
+    border: none;
+}

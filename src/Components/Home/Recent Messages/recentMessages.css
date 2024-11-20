@@ -1,0 +1,39 @@
+.msgz-container{
+    margin-left: 1rem;
+}
+
+.nurse-dash-messages-container {
+   
+    word-wrap: break-word;
+    background: var(--primary-backColor);
+    -webkit-background-clip: border-box;
+    border: transparent;
+    overflow: hidden;
+    box-shadow: var(--primary-contShadow);
+    border-radius: 10px;
+    padding: 5px;
+    padding-top: 12px;
+    border-radius: 10px;
+    word-wrap: break-word;
+    background: var(--primary-backColor);
+    -webkit-background-clip: border-box;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    width: 30%;
+}
+
+.dash-request-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+}
+
+.dash-request-container .date{
+margin-top: 0.4rem;
+}
+
+.request-heading-dash{
+    color: var(--primary-colorTwGrey2);
+    margin-top: 0.5rem;
+}

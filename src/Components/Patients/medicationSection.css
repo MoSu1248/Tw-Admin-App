@@ -1,0 +1,100 @@
+.med-top-wrapper{
+    height: 2.8rem;
+    border-radius: 20px;
+    background-color: var(--primary-backColor);
+    transition: 0.2s;
+    width: 30%;
+    height: 88%;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    box-shadow: var(--primary-contShadow);  
+    border-radius: 10px;
+}
+
+
+.medication-header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    
+}
+
+.medication-top-container{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0.5rem;
+    padding-left: 0.5rem;
+
+}
+
+
+.medication-table-container{
+    width: 90%;
+    height: 80%;
+
+margin: auto;}
+
+.clients-table-row-header{
+    border-bottom: 1px solid var(--primary-bottom-border-table);
+
+
+}
+
+.clients-table-row-header th p{
+min-width: 24rem;
+}
+
+
+.test{
+    width: 100%;
+
+}
+
+.med-body{
+    width: 100%;
+    min-width: 100%;
+}
+
+.medication-table-row{
+    width: 51%;
+    border-bottom: 1px solid var(--primary-bottom-border-table);
+}
+
+.medication-table-row:hover{
+    translate: 7px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.med-data{
+    height: 1rem;
+    width: 100%;
+}
+
+.header-row{
+    width: 60%;
+    min-width: 60%;
+
+}
+
+.med-data .admin{
+    font-size: 0.8rem;
+    white-space: nowrap; 
+    width: 250px; 
+    overflow: hidden;
+    margin-left: 1rem;
+    text-overflow: ellipsis; 
+}
+
+tr:nth-child(even) {
+    background-color: var(--nth-child-back-color);
+}
+
+.medication-section-table-header{
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 1px solid var(--primary-bottom-border-table);
+}

@@ -1,0 +1,107 @@
+.appointmentTimeline-top-wrapper{
+    height: 2.8rem;
+    padding: 7.6px;
+    background-color: var(--primary-backColor);
+    transition: 0.2s;
+    padding: 0 1rem;
+    width: 30%;
+    height: 88%;
+    margin-left: 3.4rem;
+    margin-top: 2rem;
+box-shadow: var(--primary-contShadow);  
+  border-radius: 10px;
+
+}
+
+.list-patient-img-styling{
+    height: 60px;
+    width: 60px;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.appointment-list-items{
+    display: flex;
+    height: 60px;
+    margin: 0.4rem;
+    margin-top: 1rem;
+}
+.appointment-list-items:hover{
+    translate: 9px ;
+    transition: 0.3s ease;
+   cursor: pointer;
+}
+
+
+.appointmentTimeline-data{
+    height: fit-content;
+    margin:0;
+    margin-top: 0.3rem;
+}
+
+.appointmentTimeline-top-container{
+    height: 77%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.appointmentTimeline-data-container{
+    display: block;
+    color: var(--primary-colorTwGrey2);
+
+}
+
+
+.appointmentTimeline-data-container .date{
+font: 1.8rem;
+font-weight: 600;
+color: var(--primary-text);
+
+}
+
+.appointment-timeline-header{
+   
+    font-size: 1.2rem;
+    margin: auto;
+    margin-left: 0;
+    height: fit-content;
+    width: fit-content;
+}
+
+.appointmentTimeline-header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-top: 1.5rem;
+    border-bottom: 1px solid var(--primary-colorTwGrey2-lighter2);
+    margin-bottom: 1rem;
+
+}
+
+
+.icon-styling{
+    width: 35px;
+    height: 35px;
+    color: var(--primary-text);
+    padding: 0.3rem;
+    border: 1px solid var(--primary-colorTwGrey2)67;
+    box-shadow: var(--primary-contlesserShadow);
+
+margin: auto;
+border-radius: 8px;
+margin-right: 1rem;
+margin-left: 0.1rem;
+}
+
+.chev-styling{
+    font-size: 1.2rem;
+
+}
+
+.view-text{
+transition: 0.2s ease-in;
+font-size: 0;
+font-weight: 700;
+}
+

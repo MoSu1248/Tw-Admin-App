@@ -1,0 +1,64 @@
+.dash-nurse-counter-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    border-radius: 10px;
+    width: 33.3%;
+    word-wrap: break-word;
+    background: var(--primary-backColor);
+    -webkit-background-clip: border-box;
+    transition: 0.3s ease-out;
+    box-shadow: var(--primary-contShadow);
+
+}
+
+.dash-nurse-counter-content-container{
+display: flex;
+
+}
+
+.dash-counter-icon{
+    font-size: 4rem;
+    color: var(--primary-Tab-toplink);
+   
+    margin: auto 0.5rem auto 1rem;
+    background-color: var(--primary-appBack);
+    padding: 1rem;
+    border-radius: 100%;
+}
+
+.dash-counter-details-container{
+    width: 90%;
+  padding: 1rem;
+}
+
+.dash-counter-header{
+    color: var(--primary-Tab-toplink);
+margin: auto;
+font-weight: 600;
+font-size: 1rem;
+}
+
+.dash-counter-no{
+    margin: auto;
+    color: var(--primary-text);
+    font-size: 1.8rem;
+    font-weight: 700 ;
+}
+
+.dash-monthly-counter{
+    margin-left: 3rem;
+}
+
+.counter-margins{
+    margin-left: 2rem;
+}
+
+.Daily-logins-margins{
+    margin-right: 1rem;
+}
+
+.dash-nurse-counter-container:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}

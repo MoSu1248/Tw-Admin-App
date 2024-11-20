@@ -1,0 +1,108 @@
+/* .message-container{
+    width: 100%;
+} */
+
+.request-list-item {
+  font: 1rem;
+}
+
+.request-icon {
+  height: 2rem;
+  width: 3rem;
+  margin: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  border: 1px solid var(--primary-colorTwGrey2-lighter3);
+  padding: 0.2rem;
+  border-radius: 6px;
+  color: var(--primary-colorrTwRed);
+}
+
+.nurse-requests-container {
+  font-size: 0.8rem;
+  margin: 0;
+  display: flex;
+  height: 5rem;
+  max-height:5rem;
+  width: 95%;
+  min-width: 95%;
+  padding-left: 0.5rem;
+  transition: 0.2s ease;
+ margin-bottom: 1rem;
+margin: 12px;
+background-color: var(--primary-backColor);
+  border: 1px solid var(--primary-colorTwGrey2);
+  border-radius: 5px;
+}
+
+.nurse-requests-container:hover {
+  border: transparent;
+  border: none;
+  background-color: var(--primary-backColor); 
+  translate: 5px ;
+  box-shadow: 0 .5rem 0.5rem var(--loginshadow);
+transition: 0.2s ease;
+border: 1px solid var(--primary-colorrTwRed);
+
+
+}
+
+.nurse-requests-container p {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: var(--primary-text);
+  font-weight: 600;
+}
+
+.request-heading {
+  margin-top: 1rem;
+  font: 1rem;
+  font-family: "DM Sans", sans-serif;
+  color: var(--primary-colorTwGrey2);
+}
+
+.request-info {
+  overflow: hidden;
+  white-space: nowrap;
+  width: 15rem;
+  text-overflow: ellipsis;
+  font-size: 0.9rem;
+}
+
+.nurse-requests-info-container {
+  width: 100%;
+}
+
+.nurse-message-container {
+  height: 78%;
+}
+
+.ttest {
+  border-radius: 10px;
+  margin-bottom: 0.2rem;
+  border: transparent;
+}
+
+
+
+.request-messages-header {
+  padding-left: 10px;
+  padding-top: 2px;
+}
+
+.request-login-heading {
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--primary-text);
+  font-family: "DM Sans", sans-serif;
+  margin-left: 0.2rem;
+  /* height: 100%; */
+  margin: auto;
+  margin-left: 0;
+}
+
+.heading-icon-container-requests {
+  display: flex;
+  padding: 0.5rem;
+  border-bottom: 1px solid var(--primary-colorTwGrey2-lighter3);
+}

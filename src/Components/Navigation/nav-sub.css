@@ -1,0 +1,40 @@
+.active-sub{
+    pointer-events: none;
+    display: block;
+}
+
+.active-sub .title{
+  margin-left: 20%;
+  color: var(--primary-Tab-toplink);
+    font-weight: 600;
+    margin-top: 0.8rem;
+    transition: 1s ease-out;
+
+}
+
+.non-active-sub{
+    pointer-events: none;
+}
+
+.non-active-sub .title{
+transition: 1s ease-out;
+    display: none;
+}
+
+.navigation.uncollapsed .non-active-sub{
+    display: none;
+}
+
+.navigation.uncollapsed .active-sub{
+    display: none;
+}
+
+.navigation .uncollapsed .hide{
+    display: none;
+}
+
+.nav-sub-icon{
+    margin-right: 1.2rem;
+    font-weight: 700;
+    color: var(--primary-colorTwGrey2);
+}

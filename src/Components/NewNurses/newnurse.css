@@ -1,0 +1,391 @@
+* {
+  margin: 0;
+  padding: 0%;
+}
+
+.visible-btn {
+  border: none;
+  background-color: transparent;
+}
+.heading-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.register-container {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 65%;
+  border-radius: 20px;
+  word-wrap: break-word;
+  background:  var( --primary-backColor);
+  -webkit-background-clip: border-box;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  height: fit-content;
+  box-shadow: var(--primary-contShadow);
+  border-radius: 10px;
+}
+.signup-heading {
+  margin-bottom: 0.5rem;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.btn-wrapper {
+  margin-top: 20rem;
+}
+.middle-border {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  height: 2px;
+  background:  var(--xn-background);
+  transform: rotate(90deg);
+  width: 80%;
+}
+
+.password-container {
+  display: flex;
+}
+
+.submit-btn {
+  margin: 70px auto;
+}
+
+.visible-btn {
+  position: absolute;
+  left: 83%;
+  top: 42%;
+}
+.register-icon {
+  margin-top: 40px;
+  font-size: 6rem;
+}
+.register-heading {
+  font-weight: 700;
+  color:  var(--primary-text);
+  font-family: "DM Sans", sans-serif;
+  width: fit-content;
+  margin-top: 0.5rem;
+
+  margin-bottom: 0.5rem;
+  font-size: 1.62rem;
+}
+
+.new-nurse-wrapper {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.create_wrapper {
+  margin-left: 15rem;
+  margin-top: 2rem;
+}
+
+.nurse_info_form_container {
+  width: 100%;
+  /* border-right: 0.5px solid  var(--primary-colorTwGrey1); */
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid  var(--primary-colorTwGrey2-lighter2);
+}
+
+.data-input {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: fit-content;
+  margin-top: 1rem;
+}
+
+.nurse-id-data-input {
+  display: flex;
+  width: 80%;
+  height: 4rem;
+  margin-top: 1rem;
+}
+
+.nurse-id-data-input label {
+  margin-left: 2rem;
+  height: fit-content;
+}
+
+.data-input input {
+  align-self: self-end;
+}
+
+.data-input label {
+  height: fit-content;
+  font-family: "DM Sans", sans-serif;
+  font-size: 0.7875rem;
+  color:  var(--primary-text);
+  font-weight: 600;
+  width: fit-content;
+  margin-left: 16.5rem;
+}
+
+.data-info {
+  color:  var(--primary-colorrTwRed3);
+  height: fit-content;
+  width: fit-content;
+}
+
+.nurse_input {
+  width: 70%;
+  padding: 0.45rem;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-radius: 0.3rem;
+  border: 2px solid  var(--primary-appointmentDataBorder);
+  font-family: "DM Sans", sans-serif;
+  color:  var(--primary-Tab-toplink);
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.nurse_input:hover {
+  border: 2px solid  var(--primary-colorTwGrey1-lighter);
+}
+.nurse_input::placeholder {
+  font-family: "DM Sans", sans-serif;
+
+  color:  var(--primary-colorTwGrey1);
+}
+
+.nurse_input:focus {
+  border: 2px solid  var(--primary-colorTwGrey1);
+  outline: none;
+}
+
+.test-btn {
+  width: 80%;
+  min-width: 0px;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  position: relative;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  font-weight: 500;
+  border-radius: 16px;
+  font-size: 0.875rem;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  -webkit-padding-end: 1rem;
+  padding-inline-end: 1rem;
+  height: 3rem;
+  color:  var(--primary-text);
+  background: transparent;
+  border: 1px solid;
+  border-color:  var(--primary-appointmentDataBorder);
+  -webkit-margin-start: 0px;
+  margin-inline-start: 0px;
+  margin-bottom: 24px;
+}
+
+.test-btn::placeholder {
+  color:  var(--primary-colorTwGrey1);
+}
+
+.test-btn:focus {
+  border: 2px solid  var(--primary-text);
+  outline: none;
+}
+
+.css-1c3hwwk {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+  font-size: 0.875rem;
+  -webkit-margin-end: 0.75rem;
+  margin-inline-end: 0.75rem;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  opacity: 1;
+  -webkit-margin-start: 4px;
+  margin-inline-start: 4px;
+  color:  var(--primary-text);
+  font-family: "DM Sans", sans-serif;
+  margin-left: 5rem;
+  margin-top: 2rem;
+}
+
+.css-1f1mtmi {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  appearance: none;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  position: relative;
+  white-space: nowrap;
+  vertical-align: middle;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  width: 30%;
+  line-height: 1.2;
+  border-radius: 0.8rem;
+  font-weight: 500;
+  transition-property: background-color, border-color, color, fill, stroke,
+    opacity, box-shadow, transform;
+  transition-duration: 200ms;
+  /* box-shadow: 45px 76px 113px 7px rgba(112, 144, 176, 0.08); */
+  -webkit-transition: 0.25s all ease;
+  transition: 0.25s all ease;
+  box-sizing: border-box;
+  height: 2.5rem;
+  min-width: 2.5rem;
+  font-size: 0.9rem;
+  -webkit-padding-start: 1rem;
+  padding-inline-start: 1rem;
+  -webkit-padding-end: 1rem;
+  padding-inline-end: 1rem;
+  background:  var(--primary-colorrTwRed3);
+  color: var(--primary-nav-back-color);
+  font-family: "DM Sans", sans-serif;
+  border: transparent;
+  transition: 0.3s;
+}
+
+.css-1f1mtmi:hover {
+  border-radius: 4px;
+  border: 1px solid  var(--primary-colorrTwRed3);
+  background: var( --css-1f1mtmi-hover);
+  color:  var(--primary-colorrTwRed3);
+  font-size: 1.1rem;
+}
+
+.btn-signup {
+  margin-top: 5rem;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.data-collection-container p {
+  border-bottom: 1px solid  var(--primary-colorTwGrey2-lighter2);
+  padding-left: 2rem;
+  padding-bottom: 0.5rem;
+  font-weight: 400;
+  font-size: 0.9rem;
+  color:  var(--primary-colorTwGrey1);
+  margin-left: 2.2rem;
+}
+
+.nurse_info_form_container h6 {
+  color:  var(--primary-Tab-toplink);
+  width: fit-content;
+  margin-left: 2rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.nurse-id-label {
+}
+
+.register-form h6 {
+  color:  var(--primary-Tab-toplink);
+  width: fit-content;
+  margin-left: 2rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+.tooltip-toggle {
+  cursor: pointer;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    background-color:  var(--tool-tip);
+    border-radius: 5px;
+    color:  var( --primary-backColor);
+    content: attr(aria-label); 
+    padding: 0.4rem;
+    text-transform: none;
+    transition: all 0.3s ease;
+    width: 30rem;
+  }
+
+  &::after {
+    position: absolute;
+    top: 5px;
+    left: 18px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid  var(--primary-text);
+    content: " ";
+    font-size: 0;
+    transform: rotate(90deg);
+
+    line-height: 0;
+    margin-left: -5px;
+    width: 0;
+  }
+  
+  &::before,
+  &::after {
+    color: var(--smoke);
+    font-family: "DM Sans", sans-serif;
+    font-size: 0.7rem;
+    opacity: 0;
+    pointer-events: none;
+    text-align: center;
+  }
+  
+  &:focus::before,
+  &:focus::after,
+  &:hover::before,
+  &:hover::after {
+    opacity: 1;
+    transition: all 0.3s ease;
+  }
+}
+
+.showPassword-label{
+  margin-top: 1rem;
+}
+
+.box-label{
+  margin-right: 1rem;
+  vertical-align: middle;
+}
